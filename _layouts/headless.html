@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{% if page.language %}{{ page.language | downcase }}{% else %}{{ site.language | downcase }}{% endif %}">
+{% include head.html %}
+
+<section class="author-profile" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    {%  if author.cover %}
+    <div class="author-cover image-bg" style="background-image: url('{{author.cover | prepend: site.github.url | prepend: site.baseurl}}')"></div>
+    {% endif %}
+
+    {%  if author.picture %}
+    <figure class="author-image  {%  if author.cover %} has-cover  {% endif %}">
+        <div class="img image-bg" style="background-image: url({{author.picture | prepend: site.github.url | prepend: site.baseurl}})">
+            <a class="hidden" href="{{author.picture | prepend: site.github.url | prepend: site.baseurl}}" itemprop="image">{{author.name}}'s Picture</a>
+        </div>
+    </figure>
+    {% endif %}
+
+    <div class="author-info">
+        <h1 class="author-title" itemprop="name">{{author.name}}</h1>
+        {% if author.bio %} <h2 class="author-bio" itemprop="description">{{author.bio}}</h2> {% endif %}
+
+        <div class="author-meta">
+            {%  if author.email %}<a class="social-mail-alt" href="mailto:{{ author.email }}" itemprop="email">Mail</a>{% endif %}
+
+            {%  if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" class="social-linkedin">LinkedIn</a> {% endif %}
+
+            {%  if author.github %}<a href="https://github.com/{{ author.github }}" itemprop="sameAs" class="social-github-circled">GitHub</a> {% endif %}
+
+            {%  if author.resume %}<a href="{{ site.github.url }}/assets/resume.pdf" itemprop="sameAs" class="social-resume">Resume</a> {% endif %}
+    
+        </div>                                   
+    </div>                                       
+</section>   
+
+<body class="home-template">
+    <div class="site-wrapper">
+        {{ content }}
+    </div>
+</body>
+
+<script src="{{ site.github.url | prepend: site.baseurl}}/js/global.js"></script>
+</html>
