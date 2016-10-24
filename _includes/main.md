@@ -94,11 +94,20 @@ Given an random, street-level image of a city from around the world, could you i
     </div>
 </div>
 
-
 ---
 
 ### Predicting Social Interaction Outcomes
-I worked on this project while in undergrad at Vanderbilt, and was advised by <a href="http://engineering.vanderbilt.edu/bio/eugene-vorobeychik" class="md-link">Eugene Vorobeychik</a>. While I am more focused on reinforcement learning now, I still think this topic is interesting, and in particular believe that enabling computers to intelligently interact with people (e.g., in healthcare or educational settings) would be widely beneficial. In this particular project, I analyzed a set of ~2,000 social encounters between two people. Using the audio, visual, and network features from those interactions, I was able to predict their outcomes with about 85% accuracy.
+In this project, I analyzed a set of ~2,000 pairwise social encounters. Using the audio, visual, and network features from those interactions, I was able to predict their outcomes with about 85% accuracy. While I am more focused on reinforcement learning now, I still think this topic is interesting, and in particular believe that enabling computers to intelligently interact with people (e.g., in healthcare or educational settings) would be widely beneficial.
+
+<div>
+<a href="https://github.com/wulfebw/Independent_Study" class="md-link">code</a>
+<a href="{{ site.github.url }}/assets/IS_Final_Paper.pdf" class="md-link">pdf</a>
+</div>
+
+---
+
+### 3D Map Generation with Autnomous UAVs
+Our goal in this project was to develop a method for collecting imagery of archeological sites using autonomous UAVs, which could then be used to generate 3D mappings of those sites. We lived in a highland village in Peru for two months while we attempted to collect imagery using the UAVs. The cover image for this website is a photo I took of the archeological site where we spent the summer. 
 
 <div>
 <a href="https://github.com/wulfebw/Independent_Study" class="md-link">code</a>
