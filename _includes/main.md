@@ -3,6 +3,8 @@
 
 I am a Computer Science Master's student at Stanford studying artificial intelligence. I'm interested in Reinforcement Learning, and particularly the question of how artifical agents can autonomously learn increasingly complex behavior. My research focuses on this topic, which is central to hierarchical reinforcement learning (HRL). I'm more generally interested in deep reinforcement learning and multiagent coordination, and am currently researching these topics as part of the <a href="http://web.stanford.edu/group/sisl/cgi-bin/wordpress/people/" class="md-link">Stanford Intelligent System Lab</a>. 
 
+For undergrad I studied Computer Science at Vanderbilt University, where I performed research related to autonomous UAVs with my advisor <a href="http://engineering.vanderbilt.edu/bio/julie-adams" class="md-link">Julie Adams</a> as part of the <a href="http://eecs.vanderbilt.edu/research/hmtl/wp/" class="md-link">Human-Machine Teaming Lab</a>. I also did an independent study advised by <a href="http://engineering.vanderbilt.edu/bio/eugene-vorobeychik" class="md-link">Eugene Vorobeychik</a> dealing with social interaction analysis, which is how I originally became interested in machine learning.
+
 ---
 
 # Research
