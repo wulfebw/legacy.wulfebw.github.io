@@ -1,9 +1,9 @@
 
 # Bio
 
-I am a Computer Science Master's student at Stanford studying artificial intelligence. I'm interested in Reinforcement Learning, and particularly the question of how artifical agents can autonomously learn increasingly complex behavior. My research focuses on this topic, which is central to hierarchical reinforcement learning (HRL). I'm more generally interested in deep reinforcement learning and multiagent coordination, and am currently researching these topics as part of the <a href="http://web.stanford.edu/group/sisl/cgi-bin/wordpress/people/" class="md-link">Stanford Intelligent System Lab</a>. 
+I am a Computer Science Master's student at Stanford studying artificial intelligence. I'm interested in Reinforcement Learning, and particularly the question of how artificial agents can autonomously learn increasingly complex behavior. My research focuses on this topic, which is central to hierarchical reinforcement learning (HRL). I'm more generally interested in deep reinforcement learning and multiagent coordination, and am currently researching these topics as part of the <a href="http://web.stanford.edu/group/sisl/cgi-bin/wordpress/people/" class="md-link">Stanford Intelligent Systems Laboratory</a>. 
 
-For undergrad I studied Computer Science at Vanderbilt University, where I performed research related to autonomous UAVs with my advisor <a href="http://engineering.vanderbilt.edu/bio/julie-adams" class="md-link">Julie Adams</a> as part of the <a href="http://eecs.vanderbilt.edu/research/hmtl/wp/" class="md-link">Human-Machine Teaming Lab</a>. I also did an independent study advised by <a href="http://engineering.vanderbilt.edu/bio/eugene-vorobeychik" class="md-link">Eugene Vorobeychik</a> dealing with social interaction analysis, which is how I originally became interested in machine learning.
+For my undergraduate education I studied Computer Science at Vanderbilt University, where I performed research related to autonomous UAVs with my advisor <a href="http://engineering.vanderbilt.edu/bio/julie-adams" class="md-link">Julie Adams</a> as part of the <a href="http://eecs.vanderbilt.edu/research/hmtl/wp/" class="md-link">Human-Machine Teaming Lab</a>. I also did an independent study advised by <a href="http://engineering.vanderbilt.edu/bio/eugene-vorobeychik" class="md-link">Eugene Vorobeychik</a> dealing with social interaction analysis, which is how I originally became interested in machine learning.
 
 ---
 
@@ -22,7 +22,7 @@ We learn UAV collision avoidance policies directly from a simulator with a Deep 
 ---
 
 ### Multi-agent Action Coordination
-How can UAVs with different collision avoidance strategies coordinate manuevers so as to minimize collisions? This research presents an approach that enforces reasonable requirements on the behavior of UAVs, and as a result dramatically improves safety in dangerous encounters. The method is essentially to ensure that UAV manuevers align with the directions of those advised by an optimal joint solution. 
+How can UAVs with different collision avoidance strategies coordinate maneuvers so as to minimize collisions? This research presents an approach that enforces reasonable requirements on the behavior of UAVs, and as a result dramatically improves safety in dangerous encounters. The method is essentially to ensure that UAV maneuvers align with the directions of those advised by an optimal joint solution. 
 
 <div>
 <a href="https://github.com/sisl/HorizontalCoordUAVs" class="md-link">code</a>
@@ -36,8 +36,8 @@ How can UAVs with different collision avoidance strategies coordinate manuevers 
 
 ---
 
-### Playig Atari with Hierarchical Reinforcement Learning 
-How can artifical agents autonomously learn increasingly complex behavior? The <a href="http://people.idsia.ch/~juergen/subgoals.html" class="md-link">traditional</a> <a href="https://people.cs.umass.edu/~mahadeva/papers/hrl.pdf" class="md-link">approach</a> to solving this problem is to identify subgoals, and then to learn options (i.e., skills) useful for acheiving those subgoals. In this research, we instead take a bottom-up approach to HRL, wherein the sequential, primitive actions of an agent are modeled as the result of latent variables, which may themselves be used as options (similar in concept to the approach taken <a href="http://www.ausy.tu-darmstadt.de/uploads/Site/EditPublication/Daniel2016JMLR.pdf" class="md-link">here</a>). This research makes an intial step in this direction, using hierarchical recurrent neural networks within a <a href="https://arxiv.org/abs/1507.06527" class="md-link">Recurrent Q-Network</a>.
+### Playing Atari with Hierarchical Reinforcement Learning 
+How can artificial agents autonomously learn increasingly complex behavior? The <a href="http://people.idsia.ch/~juergen/subgoals.html" class="md-link">traditional</a> <a href="https://people.cs.umass.edu/~mahadeva/papers/hrl.pdf" class="md-link">approach</a> to solving this problem is to identify subgoals, and then to learn options (i.e., skills) useful for achieving those subgoals. In this research, we instead take a bottom-up approach to HRL, wherein the sequential, primitive actions of an agent are modeled as the result of latent variables, which may themselves be used as options (similar in concept to the approach taken <a href="http://www.ausy.tu-darmstadt.de/uploads/Site/EditPublication/Daniel2016JMLR.pdf" class="md-link">here</a>). This research makes an initial step in this direction, using hierarchical recurrent neural networks within a <a href="https://arxiv.org/abs/1507.06527" class="md-link">Recurrent Q-Network</a>.
 
 <div>
 <a href="https://github.com/wulfebw/hierarchical_rl" class="md-link">code_1</a>
@@ -77,8 +77,8 @@ How can artifical agents autonomously learn increasingly complex behavior? The <
 
 ---
 
-### Geolocalization of Street View Images
-Given an random, street-level image of a city from around the world, could you identify where the picture was taken? In this project, we collected a dataset of 100,000 images from ten cities, and trained a convolutional neural network to predict the city from the image. We found that the network successfully identifies the city with ~75% accuracy. Research tackling this project at a much larger scale was published concurrently (<a href="https://arxiv.org/abs/1602.05314" class="md-link">PlaNet</a>).
+### Geo-localization of Street View Images
+Given a random, street-level image of a city from around the world, could you identify where the picture was taken? In this project, we collected a dataset of 100,000 images from ten cities, and trained a convolutional neural network to predict the city from the image. We found that the network successfully identifies the city with ~75% accuracy. Research tackling this project at a much larger scale was published concurrently (<a href="https://arxiv.org/abs/1602.05314" class="md-link">PlaNet</a>).
 
 <div>
 <a href="https://github.com/wulfebw/LittlePlaNet-Models" class="md-link">code</a>
@@ -106,7 +106,8 @@ In this project, I analyzed a set of ~2,000 pairwise social encounters. Using th
 
 ---
 
-### 3D Map Generation with Autnomous UAVs
+### 3D Map Generation with Autonomous UAVs
 Our goal in this project was to develop a method for collecting imagery of archeological sites using autonomous UAVs, which could then be used to generate 3D mappings of those sites. We lived in a highland village in Peru for two months while we attempted to collect imagery using the UAVs. The cover image for this website is a photo I took of the archeological site where we spent the summer. 
 
 ---
+
