@@ -105,6 +105,10 @@ pre[class*="language-"] {
     height: auto;
 }
 
+.main-link { 
+    padding-right: 25px;
+}
+
 /* End Added */
 
 .token.comment,

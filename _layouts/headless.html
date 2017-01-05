@@ -20,13 +20,17 @@
         {% if author.bio %} <h2 class="author-bio" itemprop="description">{{author.bio}}</h2> {% endif %}
 
         <div class="author-meta">
-            {%  if author.email %}<a class="social-mail-alt" href="mailto:{{ author.email }}" itemprop="email">Mail</a>{% endif %}
+            <a href="mailto:{{ author.email }}" class="main-link">
+            Mail</a>
 
-            {%  if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" class="social-linkedin">LinkedIn</a> {% endif %}
+            <a href="https://github.com/{{ author.github }}" class="main-link">
+            GitHub</a>
 
-            {%  if author.github %}<a href="https://github.com/{{ author.github }}" itemprop="sameAs" class="social-github-circled">GitHub</a> {% endif %}
+            <a href="{{ site.github.url }}/assets/resume.pdf" class="main-link">
+            Resume</a>
 
-            {%  if author.resume %}<a href="{{ site.github.url }}/assets/resume.pdf" itemprop="sameAs" class="social-resume">Resume</a> {% endif %}
+            <a href="{{ site.github.url }}/calendar/" class="main-link">
+            Calendar</a>
     
         </div>                                   
     </div>                                       
