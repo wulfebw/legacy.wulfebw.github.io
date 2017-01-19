@@ -25,6 +25,7 @@ We learn UAV collision avoidance policies directly from a simulator with a Deep 
 How can UAVs with different collision avoidance strategies coordinate maneuvers so as to minimize collisions? This research presents an approach that enforces reasonable requirements on the behavior of UAVs, and as a result dramatically improves safety in dangerous encounters. The method is essentially to ensure that UAV maneuvers align with the directions of those advised by an optimal joint solution. 
 
 <div>
+<a href="http://ieeexplore.ieee.org/document/7777958/" class="md-link">paper</a>
 <a href="https://github.com/sisl/HorizontalCoordUAVs" class="md-link">code</a>
 </div>
 
