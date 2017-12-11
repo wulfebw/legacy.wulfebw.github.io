@@ -12,6 +12,10 @@ For my undergraduate education I studied Computer Science at Vanderbilt Universi
 ### Deep Reinforcement Learning for Collision Avoidance
 We learn UAV collision avoidance policies directly from a simulator with a Deep Q-Network (DQN). This approach not only solves for policies more quickly than value iteration, but also arrives at safer and more efficient solutions by learning a direct mapping from the state space instead of discretizing it. 
 
+<div>
+<a href="{{ site.github.url }}/assets/CS238_Final_Paper.pdf" class="md-link">[pdf]</a>
+</div>
+
 <div id="content-wrapper">
     <div id="content">
         <img class="small-img" src="{{ site.github.url }}/media/value_-180_reduced.png" />
@@ -30,7 +34,7 @@ How can UAVs with different collision avoidance strategies coordinate maneuvers 
 
 <div id="content-wrapper">
     <div id="content">
-            <img class="med-img" src="{{ site.github.url }}/media/joint_actions.png" />
+            <img class="med-img" src="{{ site.github.url }}/media/joint_actions_reduced.jpg" />
     </div>
 </div>
 
@@ -88,8 +92,8 @@ Given a random, street-level image of a city from around the world, could you id
 <div id="content-wrapper">
     <div id="content">
         <div>
-            <img class="small-img" src="{{ site.github.url }}/media/tsne.png" />
-            <img class="small-img" src="{{ site.github.url }}/media/inclusion.png" />
+            <img class="small-img" src="{{ site.github.url }}/media/tsne_reduced.jpg" />
+            <img class="small-img" src="{{ site.github.url }}/media/inclusion_reduced.jpg" />
         </div>
     </div>
 </div>
