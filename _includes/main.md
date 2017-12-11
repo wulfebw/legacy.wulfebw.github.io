@@ -113,5 +113,9 @@ In this project, I analyzed a set of ~2,000 pairwise social encounters. Using th
 ### 3D Map Generation with Autonomous UAVs
 Our goal in this project was to develop a method for collecting imagery of archeological sites using autonomous UAVs, which could then be used to generate 3D mappings of those sites. We lived in a highland village in Peru for two months while we attempted to collect imagery using the UAVs. The cover image for this website is a photo I took of the archeological site where we spent the summer. 
 
+<div>
+<a href="https://www.cambridge.org/core/journals/advances-in-archaeological-practice/article/div-classtitlecapturing-complexitydiv/22A3C3132AA4F5C6ADAB72DEE1265582" class="md-link">[pdf]</a>
+</div>
+
 ---
 
