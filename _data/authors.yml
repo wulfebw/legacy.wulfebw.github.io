@@ -1,7 +1,7 @@
 default:
   initial:      wulfebw
   name:         "Blake Wulfe"                                
-  cover:        /assets/machu_lacta.jpg        
+  cover:        /assets/machu_lacta_reduced.jpg        
   picture:      /assets/wulfebw.jpg                         
   bio:          Stanford Computer Science M.S. Student
   location:     Palo Alto

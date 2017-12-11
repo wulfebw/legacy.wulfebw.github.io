@@ -14,8 +14,7 @@ We learn UAV collision avoidance policies directly from a simulator with a Deep 
 
 <div id="content-wrapper">
     <div id="content">
-        <img class="small-img" src="{{ site.github.url }}/media/policy_-180.gif" />
-        <img class="small-img" src="{{ site.github.url }}/media/value_-180.gif" />
+        <img class="small-img" src="{{ site.github.url }}/media/value_-180_reduced.png" />
     </div>
 </div>
 
