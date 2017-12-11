@@ -69,8 +69,8 @@ How can artificial agents autonomously learn increasingly complex behavior? The 
 <div id="content-wrapper">
     <div id="content">
         <div>
-            <img class="small-img" src="{{ site.github.url }}/media/sine.gif" />
-            <img class="small-img" src="{{ site.github.url }}/media/circle.gif" />
+            <img class="small-img" src="{{ site.github.url }}/media/sine_reduced.png" />
+            <img class="small-img" src="{{ site.github.url }}/media/circle_reduced.png" />
         </div>
     </div>
 </div>
