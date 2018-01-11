@@ -2,7 +2,7 @@
 <html lang="{% if page.language %}{{ page.language | downcase }}{% else %}{{ site.language | downcase }}{% endif %}">
 {% include head.html %}
 
-<nav class="navbar navbar-default">
+<nav class="navbar">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li>  <a href="{{ site.github.url }}/" class="main-link">About</a> </li>
@@ -14,9 +14,6 @@
   </div>
 </nav>
 
-<div id="mynav">
-    
-</div>
 
 <body class="home-template">
     <div class="site-wrapper">
