@@ -20,17 +20,18 @@
         {% if author.bio %} <h2 class="author-bio" itemprop="description">{{author.bio}}</h2> {% endif %}
 
         <div class="author-meta">
-<!--             <a href="mailto:{{ author.email }}" class="main-link">
-            Mail</a> -->
+
+            <a href="{{ site.github.url }}/" class="main-link">
+            About</a>
+
+            <a href="{{ site.github.url }}/research.html" class="main-link">
+            Research</a>
 
             <a href="https://github.com/{{ author.github }}" class="main-link">
             GitHub</a>
 
             <a href="{{ site.github.url }}/assets/resume.pdf" class="main-link">
             Resume</a>
-
-            <a href="{{ site.github.url }}/calendar.html" class="main-link">
-            Calendar</a>
 
             <a href="{{ site.github.url }}/blog.html" class="main-link">
             Blog</a>

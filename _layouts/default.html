@@ -2,6 +2,22 @@
 <html lang="{% if page.language %}{{ page.language | downcase }}{% else %}{{ site.language | downcase }}{% endif %}">
 {% include head.html %}
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li>  <a href="{{ site.github.url }}/" class="main-link">About</a> </li>
+      <li>  <a href="{{ site.github.url }}/research.html" class="main-link">Research</a> </li>
+      <li>  <a href="https://github.com/{{ author.github }}" class="main-link">GitHub</a> </li>
+      <li>  <a href="{{ site.github.url }}/assets/resume.pdf" class="main-link">Resume</a> </li>
+      <li>  <a href="{{ site.github.url }}/blog.html" class="main-link">Blog</a> </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="mynav">
+    
+</div>
+
 <body class="home-template">
     <div class="site-wrapper">
         {% include header.html %}

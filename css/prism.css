@@ -69,9 +69,12 @@ pre[class*="language-"] {
 /* Added */
 .content{
 	
-	padding-right: 8em;
+	/*padding-right: 8em;
 	padding-left: 8em;
-	font-size: 85%;
+	font-size: 85%;*/
+    padding-right: 15%;
+    padding-left: 15%;
+    font-size: 85%;
 }
 
 .md-link {
@@ -96,6 +99,10 @@ pre[class*="language-"] {
   height: auto;
 }
 
+.content>p{
+    text-align: left;
+}
+
 .small-img {
 	width: 35%;
     height: auto;
@@ -108,6 +115,23 @@ pre[class*="language-"] {
 
 .main-link { 
     padding-right: 25px;
+}
+
+.fourzerofour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 /* stolen */
