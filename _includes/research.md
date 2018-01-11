@@ -10,7 +10,7 @@
         <a href="{{ site.github.url }}/assets/CS238_Final_Paper.pdf" class="md-link btn-default btn">paper</a>
     </div>
     <div class="col-md-5">
-        <img class="img" src="{{ site.github.url }}/media/value_-180_reduced.png" />
+        <img class="rimg" src="{{ site.github.url }}/media/value_-180_reduced.png" />
     </div>
   </div>
 </div>
@@ -22,7 +22,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-5">
-        <img class="img" src="{{ site.github.url }}/media/joint_actions_reduced.jpg" />
+        <img class="rimg" src="{{ site.github.url }}/media/joint_actions_reduced.jpg" />
     </div>
     <div class="col-md-7">
         <p>
@@ -51,7 +51,7 @@
         <a href="https://github.com/wulfebw/playing_atari" class="md-link btn-default btn">code 2</a> 
     </div>
     <div class="col-md-4">
-        <img class="img" src="{{ site.github.url }}/media/hsRQN.jpg" />
+        <img class="rimg" src="{{ site.github.url }}/media/hsRQN.jpg" />
     </div>
   </div>
 </div>
@@ -63,7 +63,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-5">
-        <img class="img" src="{{ site.github.url }}/media/sine_reduced.png" />
+        <img class="rimg" src="{{ site.github.url }}/media/sine_reduced.png" />
     </div>
     <div class="col-md-7">
         <p>
@@ -89,8 +89,8 @@
         <a href="https://github.com/wulfebw/LittlePlaNet-Models" class="md-link btn-default btn">code</a> 
     </div>
     <div class="col-md-5">
-        <img class="img" src="{{ site.github.url }}/media/tsne_reduced.jpg" />
-        <img class="img" src="{{ site.github.url }}/media/inclusion_reduced.jpg" />
+        <img class="rimg" src="{{ site.github.url }}/media/tsne_reduced.jpg" />
+        <img class="rimg" src="{{ site.github.url }}/media/inclusion_reduced.jpg" />
     </div>
   </div>
 </div>
