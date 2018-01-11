@@ -11,5 +11,6 @@ Thumbs.db
 
 *.sass_cache/*
 .sass_cache/
+*.sass*
 
 Gemfile.lock
