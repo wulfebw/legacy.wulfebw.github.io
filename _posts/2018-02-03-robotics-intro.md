@@ -43,4 +43,4 @@ categories: [rl,robotics]
 
 ## TODO list 
 1. improve website design
-2. 
+2. come up with a shorter title
