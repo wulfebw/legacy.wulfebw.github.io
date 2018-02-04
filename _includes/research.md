@@ -1,4 +1,40 @@
 
+### Learning Human Driver Models through Adversarial Imitation
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+        <p>
+        One potential method for validating autonomous vehicles is to evaluate them in a simulator. For this to work, you need highly realistic models of human driving behavior. Existing <a href="https://arxiv.org/abs/1701.06699" class="md-link">research</a> learned human driver models using <a href="https://arxiv.org/abs/1606.03476" class="md-link">generative adversarial imitation learning</a>, but did so in a single-agent environment. As a result, the model fails when you execute many of the learned policies simultaneously. This research performs training in a multi-agent setting to address this problem.
+        </p>
+        <a href="https://github.com/wulfebw/ngsim_env" class="md-link btn-default btn">code</a>
+    </div>
+    <div class="col-md-4">
+        <img class="rimg" src="{{ site.github.url }}/media/multiagent_driver.png" />
+    </div>
+  </div>
+</div>
+
+---
+
+### Intermediate-Horizon Automotive Risk Prediction
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+        <img class="rimg" src="{{ site.github.url }}/media/behavior_sig.png" />
+    </div>
+    <div class="col-md-7">
+        <p>
+        This research addresses the problem of predicting whether a car will suffer a collision in the time period 10-20 seconds in the future. We formulate this task as policy evaluation in a MDP with a high-dimensional, continuous state space,  and a reward function dominated by rare events (collisions). We then demonstrate that simulated data and domain adaptation models can be used to improve prediction performance on real-world data.
+        </p>
+        <a href="https://github.com/wulfebw/risk_prediction" class="md-link btn-default btn">code</a>
+    </div>
+  </div>
+</div>
+
+---
+
 ### Deep Reinforcement Learning for Collision Avoidance
 
 <div class="container-fluid">
@@ -28,8 +64,10 @@
         <p>
         How can UAVs with different collision avoidance strategies coordinate maneuvers so as to minimize collisions? This research presents an approach that enforces reasonable requirements on the behavior of UAVs, and as a result dramatically improves safety in dangerous encounters. The method is essentially to ensure that UAV maneuvers align with the directions of those advised by an optimal joint solution. 
         </p>
-        <a href="http://ieeexplore.ieee.org/document/7777958/" class="md-link btn-default btn">paper</a>
-        <a href="https://github.com/sisl/HorizontalCoordUAVs" class="md-link btn-default btn">code</a>  
+        <a href="http://ieeexplore.ieee.org/document/7777958/" class="md-link btn-default btn">paper 1</a>
+        <a href="https://github.com/sisl/HorizontalCoordUAVs" class="md-link btn-default btn">code 1</a>  
+        <a href="https://arc.aiaa.org/doi/abs/10.2514/1.I010576" class="md-link btn-default btn">paper 2</a>
+        <a href="https://github.com/sisl/HCoordTablesUAVs" class="md-link btn-default btn">code 2</a> 
     </div>
   </div>
 </div>
@@ -98,17 +136,25 @@
 ---
 
 ### Predicting Social Interaction Outcomes
-In this project, I analyzed a set of ~2,000 pairwise social encounters. Using the audio, visual, and network features from those interactions, I was able to predict their outcomes with about 85% accuracy. While I am more focused on reinforcement learning now, I still think this topic is interesting, and in particular believe that enabling computers to intelligently interact with people (e.g., in healthcare or educational settings) would be widely beneficial.
-
-<div>
-<a href="{{ site.github.url }}/assets/IS_Final_Paper.pdf" class="md-link btn-default btn">paper</a>
-<a href="https://github.com/wulfebw/Independent_Study" class="md-link btn-default btn">code</a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+        <img class="rimg" src="{{ site.github.url }}/media/motion_template.png" />
+    </div>
+    <div class="col-md-7">
+        <p>
+        In this project, I analyzed a set of ~2,000 pairwise social encounters. Using the audio, visual, and network features from those interactions, I was able to predict their outcomes with about 85% accuracy. While I am more focused on reinforcement learning now, I still think this topic is interesting, and in particular believe that enabling computers to intelligently interact with people (e.g., in healthcare or educational settings) would be widely beneficial.
+        </p>
+        <a href="{{ site.github.url }}/assets/IS_Final_Paper.pdf" class="md-link btn-default btn">paper</a>
+        <a href="https://github.com/wulfebw/Independent_Study" class="md-link btn-default btn">code</a> 
+    </div>
+  </div>
 </div>
 
 ---
 
 ### 3D Map Generation with Autonomous UAVs
-Our goal in this project was to develop a method for collecting imagery of archeological sites using autonomous UAVs, which could then be used to generate 3D mappings of those sites. We lived in a highland village in Peru for two months while we attempted to collect imagery using the UAVs. The cover image for this website is a photo I took of the archeological site where we spent the summer. 
+Our goal in this project was to develop a method for collecting imagery of archaeological sites using autonomous UAVs, which could then be used to generate 3D mappings of those sites. We lived in a highland village in Peru for two months while we attempted to collect imagery using the UAVs. The cover image for this website is a photo I took of the archaeological site where we spent the summer. 
 
 <div>
 <a href="https://www.cambridge.org/core/journals/advances-in-archaeological-practice/article/div-classtitlecapturing-complexitydiv/22A3C3132AA4F5C6ADAB72DEE1265582" class="md-link btn-default btn">paper</a>
