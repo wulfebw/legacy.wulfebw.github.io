@@ -72,9 +72,9 @@ pre[class*="language-"] {
 	/*padding-right: 8em;
 	padding-left: 8em;
 	font-size: 85%;*/
-    padding-right: 15%;
-    padding-left: 15%;
-    font-size: 85%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 90%;
 }
 
 .md-link {
@@ -119,7 +119,19 @@ p{
 
 .rimg {
     max-width: 100%;
-    max-height: 100%;
+    /*max-height: 100%;*/
+}
+
+.pubs {
+    text-align: left;
+}
+
+.rtitle {
+    text-align: left;
+}
+
+.rsection {
+    text-decoration: underline;
 }
 
 img {
@@ -146,6 +158,10 @@ img {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+hr {
+    border-top: #808080 1px solid;
 }
 
 
