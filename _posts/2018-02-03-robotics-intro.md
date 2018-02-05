@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Building a Robotic Arm and Learning to Control it with Reinforcement and Imitation Learning: Outline"
+title: "Controlling a robotic arm with reinforcement learning: outline"
 date:   2018-02-03
 categories: [rl,robotics]
+description: Project outline for building a robotic arm and controlling it with reinforcement learning
 ---
 
 ## Outline
@@ -37,10 +38,6 @@ categories: [rl,robotics]
 ## Why am I doing this project?
 - RL and stochastic dynamic programming have been successful in performing a number of tasks like game playing and robotics
 - Most RL (human) learning resources focus on implementing algorithms and applying them in simulation 
-- Real-world robotics is a key application area of reinforcement learning because it is a case where RL is likely the best option for learning control policies 
+- Real-world robotics is a key application area of reinforcement learning because it is a case where RL is very likely the best option for learning control policies 
 - The goal of this project is to demonstrate the application of RL in a robotics task
     + In a manner that people could do by themselves at reasonable cost without external resources like a robotics lab 
-
-## TODO list 
-1. improve website design
-2. come up with a shorter title
