@@ -72,9 +72,14 @@ pre[class*="language-"] {
 	/*padding-right: 8em;
 	padding-left: 8em;
 	font-size: 85%;*/
-    padding-right: 20%;
-    padding-left: 20%;
-    font-size: 90%;
+    /*padding-right: 20%;
+    padding-left: 20%;*/
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 100%;
+    font-family: sans-serif;
+    color: #444;
+    font-weight: 200
 }
 
 .md-link {
@@ -118,8 +123,14 @@ p{
 }
 
 .rimg {
-    max-width: 100%;
+    /*max-width: 100%;*/
     /*max-height: 100%;*/
+    text-align: center;
+    max-height: auto;
+}
+
+.img-border {
+    margin: 10px;
 }
 
 .pubs {
@@ -128,10 +139,25 @@ p{
 
 .rtitle {
     text-align: left;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
 .rsection {
-    text-decoration: underline;
+    font-family: sans-serif;
+    color: #444;
+    font-weight: 200;
+}
+
+.rbtn {
+    float: left;
+    margin: 0px 5px 0px 0px;
+    border-radius: 0;
+}
+
+p {
+    margin-bottom: 5px
 }
 
 img {
@@ -161,7 +187,8 @@ img {
 }
 
 hr {
-    border-top: #808080 1px solid;
+    border-top: #bbbbbb 1px solid;
+    margin: 15px 0px 15px 0px;
 }
 
 .blog-footer {
