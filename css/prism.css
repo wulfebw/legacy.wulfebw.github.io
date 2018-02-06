@@ -165,6 +165,10 @@ img {
     max-height: 100%;
 }
 
+.about-p {
+    margin:0px 0px 20px 0px;
+}
+
 .main-link { 
     padding-right: 25px;
 }
@@ -207,7 +211,7 @@ hr {
 
 .footer-hr {
     border-top: #d6d4d4 1px solid;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 /* stolen */
@@ -246,12 +250,14 @@ hr {
 }
 
 .post-header { 
-    margin: 10px 0 10px; 
+    margin: 10px auto;
     text-align: left;
+    max-width: 800px;
 }
 
 .post-title {
     margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
 }
 
 .post-header h1 {
@@ -355,6 +361,7 @@ hr {
 
   .post-content > ol > li > ul {
     font-size: 16px;
+    max-width: 800px;
  }
 
  .post-content a {
@@ -366,8 +373,8 @@ hr {
  }
 
  .post {
-    max-width: 800px;
     margin: 0 auto;
+    font-family: sans-serif;
  }
 
 .post pre,
