@@ -39,6 +39,7 @@
         This research addresses the problem of predicting whether a car will suffer a collision in the time period 10-20 seconds in the future. We formulate this task as policy evaluation in a MDP with a high-dimensional, continuous state space,  and a reward function dominated by rare events (collisions). We then demonstrate that simulated data and domain adaptation models can be used to improve prediction performance on real-world data.
         </p>
         <a href="https://github.com/wulfebw/risk_prediction" class="md-link btn-default btn">code</a>
+        <a href="https://arxiv.org/abs/1802.01532" class="md-link btn-default btn">paper</a>
     </div>
   </div>
 </div>
