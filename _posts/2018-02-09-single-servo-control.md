@@ -7,13 +7,12 @@ description: Controlling a servo using a servo HAT
 ---
 
 ## Outline 
-Servos will control the joints of the robotic arm. In this post, we'll look at controlling a single servo using a HAT (hardware attached on top).
+- Servos will control the joints of the robotic arm. In this post, we'll look at controlling a single servo using a HAT (hardware attached on top).
 
 ## Preview
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kY3lgvHtju8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Materials 
-In addition to the materials from the previous post, we'll need:
 - servo HAT
     + $22 on [amazon](https://www.amazon.com/gp/product/B00XW2OY5A/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
 - HAT power source 
