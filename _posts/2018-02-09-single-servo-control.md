@@ -30,10 +30,10 @@ In addition to the materials from the previous post, we'll need:
 ### How do servos work?
 - They have a motor
 - You send a signal to the motor, and the length of the signal indicates the desired position of the motor
+    + [Servomechanisms primer](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial)
 - [Pulse width modulation (PWM)](https://en.wikipedia.org/wiki/Pulse-width_modulation) is used in sending the signal
     + PWM resources:
         * [Adafruit description](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-8-using-a-servo-motor/servo-motors)
-        * [Approachable PWM description](https://www.youtube.com/watch?v=mVx02s1fHIY&t=1470s)
 
 ### Why do we need the servo HAT?
 - the pi has the ability to send PWM signals, but there are two problems 
