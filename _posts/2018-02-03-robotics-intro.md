@@ -11,7 +11,7 @@ description: Project outline for building a robotic arm and controlling it with 
 - Here's the breakdown of the task:
 
 1. [LED control](https://wulfebw.github.io/blog/rl/robotics/led-control)
-2. Single-servo control
+2. [Single-servo control](https://wulfebw.github.io/blog/rl/robotics/single-servo-control)
 3. One-link revolute joint control 
 4. End-effector programmatic control 
 5. End-effector RL control
