@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Controlling a robotic arm with reinforcement learning: 2 servo control"
+title: "Controlling a robotic arm with reinforcement learning 2: single servo control"
 date:   2018-02-09
 categories: [rl,robotics]
 description: Controlling a servo using a servo HAT

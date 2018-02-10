@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Controlling a robotic arm with reinforcement learning: 1 led control"
+title: "Controlling a robotic arm with reinforcement learning 1: led control"
 date:   2018-02-04
 categories: [rl,robotics]
 description: Hello world, but for building a robotic arm
