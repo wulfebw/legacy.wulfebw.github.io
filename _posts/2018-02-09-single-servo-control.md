@@ -28,9 +28,8 @@ In addition to the materials from the previous post, we'll need:
 ## Background 
 
 ### How do servos work?
-- They have a motor
-- You send a signal to the motor, and the length of the signal indicates the desired position of the motor
-    + [Servomechanisms primer](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial)
+- They have a motor. You send a signal to the motor, and the length of the signal indicates the desired position of the motor
+    + [Servo primer](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial)
 - [Pulse width modulation (PWM)](https://en.wikipedia.org/wiki/Pulse-width_modulation) is used in sending the signal
     + PWM resources:
         * [Adafruit description](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-8-using-a-servo-motor/servo-motors)
