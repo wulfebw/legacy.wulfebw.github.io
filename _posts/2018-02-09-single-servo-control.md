@@ -34,15 +34,15 @@ description: Controlling a servo using a servo HAT
         * [Adafruit description](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-8-using-a-servo-motor/servo-motors)
 
 ### Why do we need the servo HAT?
-- the pi has the ability to send PWM signals, but there are two problems 
+- The pi has the ability to send PWM signals, but there are two problems 
     1. servos draw enough power that operating them can interfere with the pi operations
     2. the pi only has a single PWM pin, which means it can only control one servo
-- the servo HAT allows for controlling many servos and once, and also uses an external power supply to avoid interfering with the pi
+- The servo HAT allows for controlling many servos at once, and also uses an external power supply to avoid interfering with the pi
 
 ## Walkthrough
 
 ### Servo HAT hardware setup
-- you have to solder the pins into the servo HAT then attach the HAT to the pi as in the following picture
+- Solder the pins into the servo HAT then attach the HAT to the pi as in the following picture
 
 <img class="blog-img" src="{{ site.github.url }}/media/blog/2_single_servo_control/assembled.jpg" />
 
@@ -50,18 +50,18 @@ description: Controlling a servo using a servo HAT
 - Power on the pi and servo HAT
 
 ### Servo HAT software setup
-- download the software library that comes with the servo HAT as described in this [tutorial](https://learn.adafruit.com/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi/using-the-python-library)
-- add the downloaded library to PYTHONPATH in your raspberry pi bash_profile
+- Download the software library that comes with the servo HAT as described in this [tutorial](https://learn.adafruit.com/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi/using-the-python-library)
+- Add the downloaded library to PYTHONPATH in your raspberry pi bash_profile
     + ```export PYTHONPATH="/home/pi/software/Adafruit-Raspberry-Pi-Python-Code/Adafruit_PWM_Servo_Driver:$PYTHONPATH"```
         * where `software` is the directory where I downloaded the software
-- since these programs are run with the super user, and running with super user erases the PYTHONPATH by default, we need to explicitly keep the PYTHONPATH when running as super user 
+- Since these programs are run with the super user, and running with super user erases the PYTHONPATH by default, we need to explicitly keep the PYTHONPATH when running as super user 
     + ```sudo visudo -f /etc/sudoers.d/custom```
         * this creates a custom file rather than directly editing sudoers 
         * by default this uses nano to edit the file
     + add ```Defaults env_keep += "PYTHONPATH"``` to the file and exit
 
 ### Running the tutorial demo 
-- download the additional [code](https://github.com/wulfebw/robotics_rl/blob/master/tutorials/2_single_servo.py) used to control the servo 
+- Download the additional [code](https://github.com/wulfebw/robotics_rl/blob/master/tutorials/2_single_servo.py) used to control the servo 
     + this is in the same github repo as the code from the previous tutorial
     + it contains a utility function that allows for controlling the servo based on the desired angle of the servo arm rather than with pulse widths
 - Run the tutorial demo
