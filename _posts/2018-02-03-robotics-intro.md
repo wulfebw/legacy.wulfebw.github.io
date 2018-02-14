@@ -12,24 +12,17 @@ description: Project outline for building a robotic arm and controlling it with 
 
 1. [LED control](https://wulfebw.github.io/blog/rl/robotics/led-control)
 2. [Single-servo control](https://wulfebw.github.io/blog/rl/robotics/single-servo-control)
-3. One-link revolute joint control 
-4. End-effector programmatic control 
-5. End-effector RL control
-6. End-effector manual control 
-7. End-effector imitation control
-8. Multi-servo programmatic control 
-9. Multi-servo RL control
-10. Two-link revolute joint control 
-11. Building the 6 dof robotic arm 
-12. Robotic arm programmatic control 
-13. Robotic arm manual control 
-14. Robotic arm imitation control
-15. Robotic arm RL control 
-16. Perception
-17. Robotic arm with vision manual control
-18. Robotic arm with vision imitation control
-19. Robotic arm with vision RL control 
-20. Robotic arm with vision RL control through transfer from simulation
+3. [Two-link programmatic control](https://wulfebw.github.io/blog/rl/robotics/two-link-programmatic-control)
+4. Two-link manual control
+5. Two-link imitation control
+6. Perception
+7. Two-link RL control
+8. Building the robotic arm 
+9. Robotic arm programmatic control 
+10. Robotic arm manual control 
+11. Robotic arm imitation control
+14. Robotic arm RL control 
+15. Robotic arm sim2real RL control
 
 ## What is this?
 - this is an outline for a project
