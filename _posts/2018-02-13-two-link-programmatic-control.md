@@ -68,10 +68,11 @@ description: Forward and inverse kinematics for a two-link manipulator
 #### Inverse Jacobian Method
 - The method we use for solving the inverse kinematics problem is called the inverse Jacobian method 
     + It's an iterative method that 
-        * Linearizes the Jacobian
-        * Solves for the change in joint configuration that moves the end-effector closest to the target position under the linearized Jacobian
-        * Update the configuration 
-        * Repeats until the target is reached
+        * Linearizes the function using the Jacobian
+        * Solves for the change in joint configuration that moves the end-effector closest to the target position
+            - This is accomplished by formulating the pseudoinverse of the Jacobian, hence the name
+        * Updates the configuration 
+        * Repeats until the target is reached or it's determined that it cannot be reached
     + [Here's](https://inst.eecs.berkeley.edu/~cs184/fa09/resources/ik.pdf) a solid tutorial on it that steps through the logic and math
     + [Here's](https://github.com/wulfebw/robotics_rl/blob/master/rlrobo/inverse_kinematics.py) my implementation of it
 - This method does not explicitly deal with constraints on the movement of the manipulator 

@@ -21,8 +21,8 @@ description: Project outline for building a robotic arm and controlling it with 
 9. Robotic arm programmatic control 
 10. Robotic arm manual control 
 11. Robotic arm imitation control
-14. Robotic arm RL control 
-15. Robotic arm sim2real RL control
+12. Robotic arm RL control 
+13. Robotic arm sim2real RL control
 
 ## What is this?
 - this is an outline for a project
