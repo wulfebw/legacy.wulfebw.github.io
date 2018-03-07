@@ -39,7 +39,8 @@
         <p>
         One potential method for validating autonomous vehicles is to evaluate them in a simulator. For this to work, you need highly realistic models of human driving behavior. Existing <a href="https://arxiv.org/abs/1701.06699" class="md-link">research</a> learned human driver models using <a href="https://arxiv.org/abs/1606.03476" class="md-link">generative adversarial imitation learning</a>, but did so in a single-agent environment. As a result, the model fails when you execute many of the learned policies simultaneously. This research performs training in a multi-agent setting to address this problem.
         </p>
-        <a href="https://github.com/wulfebw/ngsim_env" class="md-link btn-default btn rbtn">code</a>
+        <a href="https://github.com/sisl/ngsim_env" class="md-link btn-default btn rbtn">code</a>
+        <a href="https://arxiv.org/abs/1803.01044" class="md-link btn-default btn rbtn">paper</a>
     </div>
   </div>
 </div>
