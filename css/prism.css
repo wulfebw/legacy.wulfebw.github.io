@@ -316,7 +316,7 @@ hr {
 }
 
 .post-content h3 {
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: -1px;
 }
 
@@ -381,6 +381,7 @@ hr {
  .post {
     margin: 0 auto;
     font-family: sans-serif;
+    font-size: 18px;
  }
 
 .post pre,
